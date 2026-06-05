@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafraVanGogh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="estrela e1"></div>
+    <div class="estrela e2"></div>
+    <div class="estrela e3"></div>
+    <div class="ceu-vangogh"></div>
+
+    <header>
+        <h1>SafraVanGogh</h1>
+        <p>Cultivando seu tempo sob a luz da sustentabilidade</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>🌾 Ciclo do Semeador (Foco)</h2>
+            <p id="tempo">25:00</p>
+            <button aria-label="Iniciar o cronômetro do ciclo do cultivo">Iniciar Foco</button>
+        </section>
+
+        <section>
+            <h2>🌱 Metas de Cultivo</h2>
+            <ul class="lista-sementes">
+                <li><span aria-hidden="true">🌾</span> Analisar umidade do solo</li>
+                <li><span aria-hidden="true">🔋</span> Checar sensores de irrigação</li>
+                <li><span aria-hidden="true">📚</span> Estudar compostagem orgânica</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido com autoria de João Matheus &copy; 2026</p> 
+    </footer>
+
+    <svg style="display: none;">
+        <filter id="pincelada">
+            <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="3" result="noise" />
+            <feDisplacementMap in="SourceGraphic" in2="noise" scale="7" xChannelSelector="R" yChannelSelector="G" />
+        </filter>
+    </svg>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
