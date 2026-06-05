@@ -1,5 +1,7 @@
 # SafraVanGogh
 
+Esse projeto foi feito para o agrinho de 2026
+
 # 🌾 SafraVanGogh
 
 Esse é o meu projeto para a primeira etapa da competição! É um sistema simples de foco (Timer Pomodoro) combinado com uma lista de metas, voltado para o tema de **Agro Forte e Futuro Sustentável**.
@@ -36,4 +38,4 @@ Na tela dele, o trabalho no campo de trigo debaixo daquele sol gigante mostra qu
 ---
 
 ## 🧑‍💻 Autoria
-* Desenvolvido e digitado linha por linha por **João Matheus** © 2026.
+* Desenvolvido e digitado linha por linha por **Grupo CEJA** © 2026.
